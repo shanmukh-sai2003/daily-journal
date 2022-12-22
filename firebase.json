@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "daily-journal",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
