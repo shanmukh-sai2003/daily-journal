@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<h1>Compose</h1>
+<form class="" action="/compose" method="post">
+  <h3>Title</h3>
+  <input class = "title" type="text" name="postTitle">
+  <h3>Post</h3>
+  <!-- <input class = "post" type="text" name="post"> -->
+  <textarea class = "post" name="postBody" rows="8" cols="80"></textarea>
+  <button type="sumbit" class=" btn btn-primary but" name="button">publish</button>
+</form>
+
+<%- include("partials/footer-diff"); -%>
